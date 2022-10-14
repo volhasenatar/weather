@@ -54,3 +54,5 @@ function getOurDate() {
     let showDate = document.querySelector('#date')
     showDate.textContent = `${day}` + ' ' + `${todayDay}` + ', ' + `${nowMonth}` + ' ' + `${year}`
 }
+
+getInfo('Warsaw, PL')
